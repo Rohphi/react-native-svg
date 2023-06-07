@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.license           = package['license']
   s.homepage          = package['homepage']
   s.authors           = 'Horcrux Chen'
-  s.platforms         = { :osx => "10.14", :ios => "9.0", :tvos => "9.2" }
+  s.platforms         = { :osx => "10.14", :ios => "12.4", :tvos => "9.2" }
   s.source            = { :git => 'https://github.com/react-native-community/react-native-svg.git', :tag => "v#{s.version}" }
 
   if fabric_enabled
